@@ -1,9 +1,10 @@
-import UpdateItem from '../components/UpdateItem';
+import UpdateProduct from '../components/UpdateProduct';
 
-const Sell = ({ query }) => (
-  <div>
-    <UpdateItem id={query.id} />
-  </div>
-);
-
-export default Sell;
+export default function UpdatePage({ query }) {
+  console.log(query);
+  return (
+    <div>
+      <UpdateProduct id={query.id} />
+    </div>
+  );
+}

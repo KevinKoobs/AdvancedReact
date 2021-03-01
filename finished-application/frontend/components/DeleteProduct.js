@@ -1,4 +1,4 @@
-import { useMutation } from '@apollo/client';
+import {useMutation} from '@apollo/client';
 import gql from 'graphql-tag';
 
 const DELETE_PRODUCT_MUTATION = gql`

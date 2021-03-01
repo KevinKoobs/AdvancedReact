@@ -1,6 +1,6 @@
-import { integer, select, text, relationship } from '@keystone-next/fields';
-import { list } from '@keystone-next/keystone/schema';
-import { rules, isSignedIn } from '../access';
+import {integer, relationship} from '@keystone-next/fields';
+import {list} from '@keystone-next/keystone/schema';
+import {isSignedIn, rules} from '../access';
 
 export const CartItem = list({
   access: {

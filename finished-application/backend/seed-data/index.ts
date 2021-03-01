@@ -1,4 +1,4 @@
-import { products } from './data';
+import {products} from './data';
 
 export async function insertSeedData({ keystone }) {
   console.log(`🌱 Inserting Seed Data: ${products.length} Products`);

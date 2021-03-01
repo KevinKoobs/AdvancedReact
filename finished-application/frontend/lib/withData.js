@@ -1,9 +1,9 @@
-import { ApolloClient, ApolloLink, InMemoryCache } from '@apollo/client';
-import { onError } from '@apollo/link-error';
-import { getDataFromTree } from '@apollo/react-ssr';
-import { createUploadLink } from 'apollo-upload-client';
+import {ApolloClient, ApolloLink, InMemoryCache} from '@apollo/client';
+import {onError} from '@apollo/link-error';
+import {getDataFromTree} from '@apollo/react-ssr';
+import {createUploadLink} from 'apollo-upload-client';
 import withApollo from 'next-with-apollo';
-import { endpoint, prodEndpoint } from '../config';
+import {endpoint, prodEndpoint} from '../config';
 import paginationField from './paginationField';
 
 function createClient({ headers, initialState }) {

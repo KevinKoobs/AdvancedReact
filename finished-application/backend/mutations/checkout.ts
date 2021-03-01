@@ -1,12 +1,7 @@
-import { CartItem } from '../schemas/CartItem';
-import { User } from '../schemas/User';
-import {
-  CartItemCreateInput,
-  OrderCreateInput,
-} from '../.keystone/schema-types';
+import {CartItemCreateInput, OrderCreateInput,} from '../.keystone/schema-types';
 
 /* eslint-disable */
-import { KeystoneContext, SessionStore } from '@keystone-next/types';
+import {KeystoneContext} from '@keystone-next/types';
 import stripeConfig from '../lib/stripe';
 
 const graphql = String.raw;

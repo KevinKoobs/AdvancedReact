@@ -1,4 +1,4 @@
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import styled from 'styled-components';
 
 const Dot = styled.div`

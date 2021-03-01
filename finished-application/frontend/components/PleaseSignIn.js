@@ -1,4 +1,4 @@
-import { useUser } from './User';
+import {useUser} from './User';
 import SignIn from './SignIn';
 
 export default function ({ children }) {

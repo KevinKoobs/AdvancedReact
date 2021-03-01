@@ -1,9 +1,8 @@
 /* eslint-disable */
-import { KeystoneContext, SessionStore } from '@keystone-next/types';
-import { CartItem } from '../schemas/CartItem';
-import { Session } from '../types';
+import {KeystoneContext} from '@keystone-next/types';
+import {Session} from '../types';
 
-import { CartItemCreateInput } from '../.keystone/schema-types';
+import {CartItemCreateInput} from '../.keystone/schema-types';
 
 async function addToCart(
   root: any,

@@ -4,7 +4,7 @@ import styled, {createGlobalStyle} from "styled-components";
 const GlobalStyles = createGlobalStyle`
 	@font-face {
 		font-family: 'radnika_next';
-		src: url('/static/ranikanext-medium-webfont.woff2') format('woff2');
+		src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}
@@ -20,6 +20,7 @@ const GlobalStyles = createGlobalStyle`
 		--bs: 0 12px 24px 9 rgba(0,0,0,0.09);
 		
 		box-sizing: border-box;
+		font-size: 62.5%;
 	}
 	
 	*, *:before, *:after {
@@ -30,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
 		font-family: 'radnika_next', sans-serif;
 		padding: 0;
 		margin: 0;
-		font-size: 16px;
+		font-size: 1.5rem;
 		line-height: 2;
 	}
 	a {

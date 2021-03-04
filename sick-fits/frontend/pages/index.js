@@ -1,5 +1,1 @@
-export default function IndexPage() {
-	return (
-		<code>var</code>
-	)
-}
+export { default } from './products';
